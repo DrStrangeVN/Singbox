@@ -21,6 +21,10 @@
 		"strategy": "ipv4_only",
 		"detour": "direct"
 	  },
+	   {
+                "tag": "block",
+                "address": "rcode://success"
+           },
 	  {
 		"tag": "block-dns",
 		"address": "rcode://success"
@@ -35,6 +39,10 @@
 		"server": "block-dns",
 		"rewrite_ttl": 20
 	  },
+	  {
+                "rule_set": "ADSVN",
+                "server": "block"
+          },
 	  {
 		"network": "udp",
 		"port": 443,
