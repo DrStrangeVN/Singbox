@@ -19,7 +19,7 @@
 		"tag": "direct-dns",
 		"address": "local",
 		"strategy": "ipv4_only",
-		"detour": "🅓🅘🅡🅔🅒🅣"
+		"detour": "direct"
 	  },
 	   {
                 "tag": "block",
