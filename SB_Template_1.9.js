@@ -19,7 +19,7 @@
 		"tag": "direct-dns",
 		"address": "local",
 		"strategy": "ipv4_only",
-		"detour": "direct"
+		"detour": "🅓🅘🅡🅔🅒🅣"
 	  },
 	   {
                 "tag": "block",
@@ -94,14 +94,14 @@
 		{
 			"tag": "🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁",
 			"type": "selector",
-			"outbounds": ["🅐🅤🅣🅞 🅐🅛🅛", "🅐🅤🅣🅞 🅥🅝🅐🅜", "🅐🅤🅣🅞 🅢🅘🅝🅖","🅐🅤🅣🅞 🅐🅓🅢", "include: viefast"]
+			"outbounds": ["🅐🅤🅣🅞 🅐🅛🅛", "🅐🅤🅣🅞 🅥🅝🅐🅜", "🅐🅤🅣🅞 🅢🅘🅝🅖","🅐🅤🅣🅞 🅐🅓🅢","🅓🅘🅡🅔🅒🅣", "include: viefast"]
 		},
 		{
 			"tag": "🅐🅤🅣🅞 🅐🅛🅛",
 			"type": "urltest",
 			"outbounds": ["include: viefast"],
 			"url": "http://www.gstatic.com/generate_204",
-			"interval": "1m",
+			"interval": "5m",
 			"tolerance": 50
 		},
 		{
@@ -109,7 +109,7 @@
 			"type": "urltest",
 			"outbounds": ["include: 🇻🇳"],
 			"url": "http://www.gstatic.com/generate_204",
-			"interval": "1m",
+			"interval": "5m",
 			"tolerance": 50
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "urltest",
 			"outbounds": ["include: 🇸🇬"],
 			"url": "http://www.gstatic.com/generate_204",
-			"interval": "1m",
+			"interval": "5m",
 			"tolerance": 50
 		},
 	        {
@@ -125,11 +125,11 @@
 			"type": "urltest",
 			"outbounds": ["include: AdBlock"],
 			"url": "http://www.gstatic.com/generate_204",
-			"interval": "1m",
+			"interval": "5m",
 			"tolerance": 50
 		},
 		{
-			"tag": "direct",
+			"tag": "🅓🅘🅡🅔🅒🅣",
 			"type": "direct"
 		},
 		{
