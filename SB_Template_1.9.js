@@ -202,7 +202,7 @@
 		  "tag": "ADSVN",
 		  "type": "remote",
 		  "format": "source",
-		  "url": "https://raw.githubusercontent.com/lonely0811/olsd/main/Singbox/Rule/ADBVN.json",
+		  "url": "https://raw.githubusercontent.com/DrStrangeVN/Singbox/main/Rule.json",
 		  "download_detour": "🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁"
 	  }
 	]
