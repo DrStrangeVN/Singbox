@@ -99,7 +99,7 @@
 		{
 			"tag": "🅐🅤🅣🅞 🅐🅛🅛",
 			"type": "urltest",
-			"outbounds": ["include: viefast"],
+			"outbounds": ["include: Viefast"],
 			"url": "http://www.gstatic.com/generate_204",
 			"interval": "5m",
 			"tolerance": 50
