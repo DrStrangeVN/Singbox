@@ -107,7 +107,6 @@
 		{
 			"tag": "🅐🅤🅣🅞 🅥🅝🅐🅜",
 			"type": "urltest",
-			"outbounds": ["include: 🇻🇳"],
 			"url": "http://www.gstatic.com/generate_204",
 			"interval": "5m",
 			"tolerance": 50
