@@ -115,7 +115,7 @@
 		{
 			"tag": "🅐🅤🅣🅞 🅢🅘🅝🅖",
 			"type": "urltest",
-			"outbounds": ["include: 🇸🇬"],
+			"outbounds": [],
 			"url": "http://www.gstatic.com/generate_204",
 			"interval": "5m",
 			"tolerance": 50
@@ -123,7 +123,7 @@
 	        {
 			"tag": "🅐🅤🅣🅞 🅗🅚",
 			"type": "urltest",
-			"outbounds": ["include: 🇭🇰"],
+			"outbounds": [],
 			"url": "http://www.gstatic.com/generate_204",
 			"interval": "5m",
 			"tolerance": 50
