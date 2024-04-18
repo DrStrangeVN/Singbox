@@ -5,13 +5,13 @@
 	"timestamp": true
   },
   "experimental": {
-		"cache_file": {
-			"enabled": true
-		},
-		"clash_api": {
-			"external_controller": "127.0.0.1:9090",
-			"secret": ""
-		}
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "ui",
+      "secret": "",
+      "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
+      "external_ui_download_detour": "🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁",
+      "default_mode": "rule"
 	},
   "dns": {
 	"servers": [
