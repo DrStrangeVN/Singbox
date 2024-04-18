@@ -12,7 +12,12 @@
       "external_ui_download_url": "https://mirror.ghproxy.com/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip",
       "external_ui_download_detour": "🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁",
       "default_mode": "rule"
-	},
+    },
+    "cache_file": {
+      "enabled": true,
+      "store_fakeip": true
+    }
+  },
   "dns": {
 	"servers": [
 	  {
