@@ -26,6 +26,12 @@
 		"strategy": "ipv4_only",
 		"detour": "direct"
 	  },
+	  {
+        "tag": "select-dns",
+        "address": "8.8.4.4",
+        "strategy": "ipv4_only",
+        "detour": ""
+      },
 	   {
                 "tag": "block",
                 "address": "rcode://success"
